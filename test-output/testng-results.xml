@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Full Douglas Regression Suite" duration-ms="0" started-at="2020-09-18T10:28:52 EET" finished-at="2020-09-18T10:28:52 EET">
+    <groups>
+    </groups>
+  </suite> <!-- Full Douglas Regression Suite -->
+  <suite name="Sanity Suite" duration-ms="38148" started-at="2020-09-18T10:28:14 EET" finished-at="2020-09-18T10:28:52 EET">
+    <groups>
+    </groups>
+    <test name="Login Test cases" duration-ms="38148" started-at="2020-09-18T10:28:14 EET" finished-at="2020-09-18T10:28:52 EET">
+      <class name="testCases.AllTestCases">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:testCases.AllTestCases@1de2cd6d]" name="startDriver" is-config="true" duration-ms="3263" started-at="2020-09-18T10:28:14 EET" finished-at="2020-09-18T10:28:17 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:testCases.AllTestCases@1de2cd6d]" name="BeforeMethod" is-config="true" duration-ms="6027" started-at="2020-09-18T10:28:17 EET" finished-at="2020-09-18T10:28:24 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="NewRegistration(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testCases.AllTestCases@1de2cd6d]" name="NewRegistration" duration-ms="6535" started-at="2020-09-18T10:28:24 EET" data-provider="data" finished-at="2020-09-18T10:28:30 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohamed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Moustafa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Douglas-2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewRegistration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.AllTestCases@1de2cd6d]" name="tearDown" is-config="true" duration-ms="1047" started-at="2020-09-18T10:28:30 EET" finished-at="2020-09-18T10:28:31 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="screenShotOnFailure(org.testng.ITestResult)[pri:0, instance:testCases.AllTestCases@1de2cd6d]" name="screenShotOnFailure" is-config="true" duration-ms="1" started-at="2020-09-18T10:28:31 EET" finished-at="2020-09-18T10:28:31 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NewRegistration status=SUCCESS method=AllTestCases.NewRegistration(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testCases.AllTestCases@1de2cd6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotOnFailure -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:testCases.AllTestCases@1de2cd6d]" name="BeforeMethod" is-config="true" duration-ms="5865" started-at="2020-09-18T10:28:31 EET" finished-at="2020-09-18T10:28:37 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="successfulLogin(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testCases.AllTestCases@1de2cd6d]" name="successfulLogin" duration-ms="5543" started-at="2020-09-18T10:28:37 EET" data-provider="data" finished-at="2020-09-18T10:28:43 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohamed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Moustafa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Douglas-2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.AllTestCases@1de2cd6d]" name="tearDown" is-config="true" duration-ms="927" started-at="2020-09-18T10:28:43 EET" finished-at="2020-09-18T10:28:44 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="screenShotOnFailure(org.testng.ITestResult)[pri:0, instance:testCases.AllTestCases@1de2cd6d]" name="screenShotOnFailure" is-config="true" duration-ms="0" started-at="2020-09-18T10:28:44 EET" finished-at="2020-09-18T10:28:44 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=successfulLogin status=SUCCESS method=AllTestCases.successfulLogin(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testCases.AllTestCases@1de2cd6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotOnFailure -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:testCases.AllTestCases@1de2cd6d]" name="BeforeMethod" is-config="true" duration-ms="5201" started-at="2020-09-18T10:28:44 EET" finished-at="2020-09-18T10:28:49 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="InvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testCases.AllTestCases@1de2cd6d]" name="InvalidLogin" duration-ms="2599" started-at="2020-09-18T10:28:49 EET" data-provider="data" finished-at="2020-09-18T10:28:51 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohamed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Moustafa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Douglas-2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.AllTestCases@1de2cd6d]" name="tearDown" is-config="true" duration-ms="856" started-at="2020-09-18T10:28:51 EET" finished-at="2020-09-18T10:28:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="screenShotOnFailure(org.testng.ITestResult)[pri:0, instance:testCases.AllTestCases@1de2cd6d]" name="screenShotOnFailure" is-config="true" duration-ms="1" started-at="2020-09-18T10:28:52 EET" finished-at="2020-09-18T10:28:52 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLogin status=SUCCESS method=AllTestCases.InvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testCases.AllTestCases@1de2cd6d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotOnFailure -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testCases.AllTestCases@1de2cd6d]" name="closeDriver" is-config="true" duration-ms="18" started-at="2020-09-18T10:28:52 EET" finished-at="2020-09-18T10:28:52 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testCases.AllTestCases -->
+    </test> <!-- Login Test cases -->
+  </suite> <!-- Sanity Suite -->
+  <suite name="Douglas Regression Suite" duration-ms="38583" started-at="2020-09-18T10:27:36 EET" finished-at="2020-09-18T10:28:14 EET">
+    <groups>
+    </groups>
+    <test name="Douglas Regression Suite" duration-ms="38583" started-at="2020-09-18T10:27:36 EET" finished-at="2020-09-18T10:28:14 EET">
+      <class name="testCases.InValidLoginTest">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:testCases.InValidLoginTest@1e4bf55b]" name="startDriver" is-config="true" duration-ms="3239" started-at="2020-09-18T10:28:05 EET" finished-at="2020-09-18T10:28:09 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:testCases.InValidLoginTest@1e4bf55b]" name="BeforeMethod" is-config="true" duration-ms="1945" started-at="2020-09-18T10:28:09 EET" finished-at="2020-09-18T10:28:11 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="InvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.InValidLoginTest@1e4bf55b]" name="InvalidLogin" duration-ms="2640" started-at="2020-09-18T10:28:11 EET" data-provider="data" finished-at="2020-09-18T10:28:13 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohamed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Moustafa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Douglas-2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method status="PASS" signature="screenShotOnFailure(org.testng.ITestResult)[pri:0, instance:testCases.InValidLoginTest@1e4bf55b]" name="screenShotOnFailure" is-config="true" duration-ms="1" started-at="2020-09-18T10:28:13 EET" finished-at="2020-09-18T10:28:13 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLogin status=SUCCESS method=InValidLoginTest.InvalidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.InValidLoginTest@1e4bf55b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotOnFailure -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testCases.InValidLoginTest@1e4bf55b]" name="closeDriver" is-config="true" duration-ms="819" started-at="2020-09-18T10:28:13 EET" finished-at="2020-09-18T10:28:14 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testCases.InValidLoginTest -->
+      <class name="testCases.RegistrationTest">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:testCases.RegistrationTest@cef23a8]" name="startDriver" is-config="true" duration-ms="4256" started-at="2020-09-18T10:27:36 EET" finished-at="2020-09-18T10:27:40 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:testCases.RegistrationTest@cef23a8]" name="BeforeMethod" is-config="true" duration-ms="2846" started-at="2020-09-18T10:27:40 EET" finished-at="2020-09-18T10:27:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="NewRegistration(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.RegistrationTest@cef23a8]" name="NewRegistration" duration-ms="9268" started-at="2020-09-18T10:27:43 EET" data-provider="data" finished-at="2020-09-18T10:27:52 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohamed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Moustafa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Douglas-2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewRegistration -->
+        <test-method status="PASS" signature="screenShotOnFailure(org.testng.ITestResult)[pri:0, instance:testCases.RegistrationTest@cef23a8]" name="screenShotOnFailure" is-config="true" duration-ms="1" started-at="2020-09-18T10:27:52 EET" finished-at="2020-09-18T10:27:52 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NewRegistration status=SUCCESS method=RegistrationTest.NewRegistration(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.RegistrationTest@cef23a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotOnFailure -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testCases.RegistrationTest@cef23a8]" name="closeDriver" is-config="true" duration-ms="1083" started-at="2020-09-18T10:27:52 EET" finished-at="2020-09-18T10:27:53 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testCases.RegistrationTest -->
+      <class name="testCases.ValidLoginTest">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:testCases.ValidLoginTest@762d2e4c]" name="startDriver" is-config="true" duration-ms="3255" started-at="2020-09-18T10:27:53 EET" finished-at="2020-09-18T10:27:57 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="BeforeMethod()[pri:0, instance:testCases.ValidLoginTest@762d2e4c]" name="BeforeMethod" is-config="true" duration-ms="1763" started-at="2020-09-18T10:27:57 EET" finished-at="2020-09-18T10:27:59 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="successfulLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidLoginTest@762d2e4c]" name="successfulLogin" duration-ms="5770" started-at="2020-09-18T10:27:59 EET" data-provider="data" finished-at="2020-09-18T10:28:04 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mohamed]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Moustafa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Douglas-2020]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfulLogin -->
+        <test-method status="PASS" signature="screenShotOnFailure(org.testng.ITestResult)[pri:0, instance:testCases.ValidLoginTest@762d2e4c]" name="screenShotOnFailure" is-config="true" duration-ms="1" started-at="2020-09-18T10:28:04 EET" finished-at="2020-09-18T10:28:04 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=successfulLogin status=SUCCESS method=ValidLoginTest.successfulLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidLoginTest@762d2e4c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotOnFailure -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testCases.ValidLoginTest@762d2e4c]" name="closeDriver" is-config="true" duration-ms="1015" started-at="2020-09-18T10:28:04 EET" finished-at="2020-09-18T10:28:05 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testCases.ValidLoginTest -->
+    </test> <!-- Douglas Regression Suite -->
+  </suite> <!-- Douglas Regression Suite -->
+</testng-results>

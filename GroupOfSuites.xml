@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Full Douglas Regression Suite">
+	<parameter name="browser" value="chrome" />
+	<suite-files>
+		<suite-file path="RegressionSuite.xml"/>
+		<suite-file path="RegressionSuite2.xml"/>
+	</suite-files>
+</suite>

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Douglas Regression Suite">
+	<parameter name="browser" value="chrome" />
+	<test name="Douglas Regression Suite" preserve-order="true">
+		<classes>
+			<class name="testCases.RegistrationTest"/>
+      		<class name="testCases.ValidLoginTest"/>
+      		<class name="testCases.InValidLoginTest"/>
+		</classes>
+	</test>
+</suite>

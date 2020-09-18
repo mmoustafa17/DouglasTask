@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sanity Suite">
+	<test name="Login Test cases">
+		<classes>
+			<class name="testCases.AllTestCases">
+				<methods>
+					<include name= "NewRegistration"/>
+					<include name= "successfulLogin"/>
+					<include name= "InvalidLogin"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

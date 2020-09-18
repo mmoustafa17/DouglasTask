@@ -1,0 +1,12 @@
+.side-nav__brand {
+    background-image: url('DouglasLogo.JPG') !important;
+    background-repeat: no-repeat !important;
+    background-position: left center !important;
+    background-size: 120px !important;
+    padding-left: 200px !important;
+	height:51px;
+}
+.side-nav__head {
+	padding-left: 20px;
+	
+}
